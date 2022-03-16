@@ -1,2 +1,4 @@
+rasterio==1.2.10
+fiona==1.8.20
 mapreader @ git+https://github.com/Living-with-machines/MapReader.git@4ca1adb6afed62cbb31a377630747f8a810d7244
 scivision
