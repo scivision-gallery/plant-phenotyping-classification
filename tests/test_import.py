@@ -11,8 +11,8 @@ def test_workflow():
 
     ds = cat.plant_single().to_dask()
 
-    outputs = model.predict(ds[0])
+    outputs = model.predict(ds[0], plot_output=False)
     assert len(outputs) == 30
     
-    outputs = model.predict(ds[1])
+    outputs = model.predict(ds[1], plot_output=False)
     assert len(outputs) == 30
