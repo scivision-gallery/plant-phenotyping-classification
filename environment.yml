@@ -251,4 +251,3 @@ dependencies:
     - yarl==1.7.2
     - zarr==2.11.0
     - zipp==3.7.0
-prefix: C:\Users\ecorcoran\Anaconda3\envs\plant_py38
