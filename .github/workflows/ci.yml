@@ -18,8 +18,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        conda install -c conda-forge rasterio=1.2.10
-        conda install -c conda-forge fiona=1.8.20
+        python -m pip install rasterio==1.2.10
+        python -m pip install fiona==1.8.20
         python -m pip install -r requirements.txt 
     - name: Test with pytest
       run: |
