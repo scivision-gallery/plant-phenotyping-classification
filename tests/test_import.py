@@ -7,7 +7,7 @@ def test_workflow():
     
     model = load_pretrained_model(scivision_yml, allow_install=True)
 
-    cat = load_dataset('https://github.com/alan-turing-institute/mapreader-plant-scivision')
+    cat = load_dataset('https://github.com/alan-turing-institute/mapreader-plant-scivision/blob/main/scivision.yml')
 
     # --- plant_single dataset
     ds = cat.plant_single().to_dask()
