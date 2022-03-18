@@ -15,7 +15,7 @@ def test_workflow():
 
     model.predict(plant_single[0], slice_size=25)
     
-    model.predict(plant_single[1], slice_size=25))
+    model.predict(plant_single[1], slice_size=25)
 
     # --- plant_flower dataset 
     plant_flower = data_config.plant_flower().to_dask()
