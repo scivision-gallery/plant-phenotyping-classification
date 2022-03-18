@@ -13,13 +13,13 @@ def test_workflow():
     # --- plant_single dataset 
     plant_single = data_config.plant_single().to_dask()
 
-    model.predict(plant_single[0], slice_size=200)
+    model.predict(plant_single[0], slice_size=100)
     
-    model.predict(plant_single[1], slice_size=200)
+    model.predict(plant_single[1], slice_size=100)
 
     # --- plant_flower dataset 
     plant_flower = data_config.plant_flower().to_dask()
 
-    model.predict(plant_flower[0], slice_size=200)
+#     model.predict(plant_flower[0], slice_size=200)
     
-    model.predict(plant_flower[1], slice_size=200)
+#     model.predict(plant_flower[1], slice_size=200)
