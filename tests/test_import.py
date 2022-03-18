@@ -22,4 +22,4 @@ def test_workflow():
 
     model.predict(plant_flower[0], slice_size=25)
     
-    model.predict(plant_flower[1], slice_size=25))
+    model.predict(plant_flower[1], slice_size=25)
