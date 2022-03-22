@@ -30,7 +30,7 @@
 
 Understanding how the genetics of plants interact with their environment to produce certain chateristics or 'phenotypes' is critical to understand how they might grow under different conditions. In relation to agriculture, extracting accurate data on pehnotype may help us to better manage plants to produce higher-yield, more resilient crops, and plan for future food security by predicting how crops may grow under various climate change scenarios.
 
-State-of-the-art plant phenotyping platforms have recently been established in the UK, such as the National Plant Phenomics Centre that collect high spatiotemporal resolution imagery of plants, as well as data on plant genetics and environmental conditions. However, extraction phenomic data from these images is expensive and time consuming to carry out manually.
+State-of-the-art plant phenotyping platforms have recently been established in the UK, such as the National Plant Phenomics Centre that collect high spatiotemporal resolution imagery of plants, as well as data on plant genetics and environmental conditions. However, extracting phenomic data from these images is expensive and time consuming to carry out manually.
 
 We are working with the NPPC to automated extraction of plant phenotype data from various datasets, one of which is comprised of time-series images of individual brassica napus plants. We want to track the change and emergence of different plant structures (such as leaves, flowers, branches and seed pods) over time.
 
