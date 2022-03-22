@@ -56,7 +56,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Open one of the notebooks on the repository, e.g.:
+Open one of the notebooks on the repository. Currently, we have:
 - mapreader_plant_scivision_v2.ipynb
 
 ## Where are the MapReader models stored?
