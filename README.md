@@ -58,7 +58,6 @@ jupyter notebook
 
 Open one of the notebooks on the repository, e.g.:
 - mapreader_plant_scivision_v2.ipynb
-- mapreader_plant_scivision.ipynb
 
 ## Where are the MapReader models stored?
 
