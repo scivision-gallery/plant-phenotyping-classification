@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Plant phenotyping classification</h1>
+    <h1>Classification of plant images using Computer Vision</h1>
 </div>
 
 <p align="center">
@@ -15,12 +15,22 @@
     <br/>
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1899856/159468646-8bb13932-d593-4dc9-affe-927b023d9c55.png" 
+        alt="Classification of plant images using MapReader" width="60%" align="center">
+</p>
+
+<p align="center">
+    <em>
+    Classification of a plant image using MapReader (https://github.com/Living-with-machines/MapReader). This multiclass classification had three labels: None; Flower (red patches); Non-flower plant-related (yellow patches).  
+    </em>
+</p>
 
 ## Abstract
 
 Understanding how the genetics of plants interact with their environment to produce certain chateristics or 'phenotypes' is critical to understand how they might grow under different conditions. In relation to agriculture, extracting accurate data on pehnotype may help us to better manage plants to produce higher-yield, more resilient crops, and plan for future food security by predicting how crops may grow under various climate change scenarios.
 
-State-of-the-art plant phenotyping platforms have recently been established in the UK, such as the National Plant Phenomics Centre that collect high spatiotemporal resolution imagery of plants, as well as data on plant genetics and environmental conditions. However, extraction phenomic data from these images is expensive and time consuming to carry out manually.
+State-of-the-art plant phenotyping platforms have recently been established in the UK, such as the National Plant Phenomics Centre that collect high spatiotemporal resolution imagery of plants, as well as data on plant genetics and environmental conditions. However, extracting phenomic data from these images is expensive and time consuming to carry out manually.
 
 We are working with the NPPC to automated extraction of plant phenotype data from various datasets, one of which is comprised of time-series images of individual brassica napus plants. We want to track the change and emergence of different plant structures (such as leaves, flowers, branches and seed pods) over time.
 
@@ -28,4 +38,18 @@ Here, we use the scivision Python API to load example plant data (at individual 
 
 ## How to run
 
-Link: https://github.com/alan-turing-institute/mapreader-plant-scivision
+Install [MapReader](https://github.com/Living-with-machines/MapReader), [scivision](https://github.com/alan-turing-institute/scivision) and other dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Open `mapreader_plant_scivision.ipynb` or `mapreader_plant_scivision_v2.ipynb` notebooks via:
+
+```bash
+jupyter notebook
+```
+
+## Where are the MapReader models stored?
+
+Refer to: https://github.com/alan-turing-institute/mapreader-plant-scivision
