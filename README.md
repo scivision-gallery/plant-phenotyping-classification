@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Plant phenotyping classification</h1>
+    <h1>Classification of plant images using Computer Vision</h1>
 </div>
 
 <p align="center">
@@ -15,6 +15,16 @@
     <br/>
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1899856/159468646-8bb13932-d593-4dc9-affe-927b023d9c55.png" 
+        alt="Classification of plant images using MapReader" width="60%" align="center">
+</p>
+
+<p align="center">
+    <em>
+    Classification of a plant image using MapReader (https://github.com/Living-with-machines/MapReader). This multiclass classification had three labels: None; Flower (red patches); Non-flower plant-related (yellow patches).  
+    </em>
+</p>
 
 ## Abstract
 
@@ -28,4 +38,18 @@ Here, we use the scivision Python API to load example plant data (at individual 
 
 ## How to run
 
-Link: https://github.com/alan-turing-institute/mapreader-plant-scivision
+Install [MapReader](https://github.com/Living-with-machines/MapReader), [scivision](https://github.com/alan-turing-institute/scivision) and other dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Open `mapreader_plant_scivision.ipynb` or `mapreader_plant_scivision_v2.ipynb` notebooks via:
+
+```bash
+jupyter notebook
+```
+
+## Where are the MapReader models stored?
+
+Refer to: https://github.com/alan-turing-institute/mapreader-plant-scivision
