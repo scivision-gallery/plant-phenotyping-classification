@@ -6,7 +6,7 @@
     <a href="https://github.com/scivision-gallery/plant-phenotyping-classification/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
     </a>
-    <a href="https://mybinder.org/v2/gh/scivision-gallery/plant-phenotyping-classification/HEAD?labpath=mapreader_plant_scivision.ipynb">
+    <a href="https://mybinder.org/v2/gh/scivision-gallery/plant-phenotyping-classification/HEAD?labpath=mapreader_plant_scivision_v2.ipynb">
         <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
     </a>
     <a href="https://github.com/scivision-gallery/plant-phenotyping-classification/workflows/Continuous%20integration/badge.svg">
