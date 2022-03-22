@@ -38,17 +38,27 @@ Here, we use the scivision Python API to load example plant data (at individual 
 
 ## How to run
 
-Install [MapReader](https://github.com/Living-with-machines/MapReader), [scivision](https://github.com/alan-turing-institute/scivision) and other dependencies using:
+1. Clone the `plant-phenotyping-classification` repository:
+
+```bash
+git clone https://github.com/scivision-gallery/plant-phenotyping-classification.git
+```
+
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Open `mapreader_plant_scivision.ipynb` or `mapreader_plant_scivision_v2.ipynb` notebooks via:
+3. Open Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
+
+Open one of the notebooks on the repository, e.g.:
+- mapreader_plant_scivision_v2.ipynb
+- mapreader_plant_scivision.ipynb
 
 ## Where are the MapReader models stored?
 
