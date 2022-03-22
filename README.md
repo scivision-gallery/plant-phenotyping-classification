@@ -1,5 +1,5 @@
 <div align="center">
-    <h2>Plant phenotyping classification</h2>
+    <h1>Plant phenotyping classification</h1>
 </div>
 
 <p align="center">
