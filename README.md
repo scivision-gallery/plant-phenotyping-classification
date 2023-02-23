@@ -38,24 +38,25 @@ Here, we use the scivision Python API to load example plant data (at individual 
 
 ## How to run
 
-1. Make sure you have [git-lfs](https://git-lfs.com/) installed
-
-2. Clone the `plant-phenotyping-classification` repository:
-
-```bash
-git clone https://github.com/scivision-gallery/plant-phenotyping-classification.git
-```
-
-3. Create a conda environment:
+1. Create a conda environment:
 
 ```bash
 conda create -n plant_py38 python=3.8
 conda activate plant_py38
 ```
 
+2. Make sure you have [git-lfs](https://git-lfs.com/) installed
+
+3. Clone the `plant-phenotyping-classification` repository:
+
+```bash
+git clone https://github.com/scivision-gallery/plant-phenotyping-classification.git
+```
+
 4. Install dependencies:
 
 ```bash
+cd plant-phenotyping-classification
 pip install -r requirements.txt
 ```
 
