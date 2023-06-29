@@ -70,6 +70,8 @@ jupyter notebook
 Open one of the notebooks on the repository. Currently, we have:
 - mapreader_plant_scivision_v2.ipynb
 
+A full conda environment can be found in environment_full.yml if you are having issues creating the conda environment. This contains details of all the packages and their versions which are required to run these notebooks, including secondary and tertiary dependencies.
+
 ## Where are the MapReader models stored?
 
 Refer to: https://github.com/alan-turing-institute/mapreader-plant-scivision
