@@ -1,2 +1,2 @@
 mapreader @ git+https://github.com/Living-with-machines/MapReader.git@b1be3afab8da7821bf1a0332acd4872e16bca570
-scivision @ git+https://github.com/alan-turing-institute/scivision
+scivision==0.7.0
